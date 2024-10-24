@@ -8,15 +8,13 @@
 
 ## Install
 
-✨Tensorflow
-
 *tensorflow와 tensorflow-probability 버전 호환 주의*
 ```
 pip install tensorflow==2.12.0
 pip install tensorflow-probability==0.20.0
 ```
 
-✨
+
 ```
 pip install matplotlib
 pip install gym
