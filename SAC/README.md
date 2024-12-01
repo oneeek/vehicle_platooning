@@ -31,13 +31,12 @@ ROUTE_FILE = "D:/result/testbed/simpleRou.rou.xml"
 tree = ET.parse(ROUTE_FILE)
 root = tree.getroot()
 
-#%%
-
 max_episode_num = 300
 agent = SACagent()
 reward_a, throughput_a = train(agent, max_episode_num)
+```
 
-#%%
+```Python
 import pandas as pd
 import matplotlib.pyplot as plt
 
